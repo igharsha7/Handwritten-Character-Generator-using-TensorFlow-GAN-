@@ -50,7 +50,7 @@ st.markdown("""
 
 # Title and description
 st.markdown('<div class="main-header">✍️ Handwritten Character Generator</div>', unsafe_allow_html=True)
-st.markdown('<div class="sub-header">Generate realistic handwritten digits and letters using AI</div>', unsafe_allow_html=True)
+st.markdown('<div class="sub-header">Generate handwritten digits and letters using AI</div>', unsafe_allow_html=True)
 
 # Cache the model loading to avoid reloading on each interaction
 @st.cache_resource
