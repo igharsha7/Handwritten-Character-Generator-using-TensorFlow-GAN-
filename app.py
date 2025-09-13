@@ -352,7 +352,7 @@ else:  # Sentence/Word mode
                         st.subheader("📋 Combined Image")
                         combined_img = create_combined_sentence_image(sentence_images)
                         if combined_img is not None:
-                            st.image(combined_img, caption=f"Generated: '{sentence_input}'", use_column_width=True)
+                            st.image(combined_img, caption=f"Generated: '{sentence_input}'", use_container_width=True)
         
         elif not sentence_input:
             st.info("👆 Enter some text and click 'Generate Sentence' to create handwritten text!")
@@ -423,7 +423,7 @@ This handwritten character generator uses a **Generative Adversarial Network (GA
 
 **Supported Characters:** 0-9, A-Z, a-z (Total: 62 characters)
 
-Created with ❤️ using TensorFlow and Streamlit
+Created by <a href="https://github.com/igharsha7" target="_blank">igharsha7</a> using TensorFlow and Streamlit
 """)
 
 # Additional sidebar information
