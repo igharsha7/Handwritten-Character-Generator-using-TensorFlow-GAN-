@@ -423,7 +423,7 @@ This handwritten character generator uses a **Generative Adversarial Network (GA
 
 **Supported Characters:** 0-9, A-Z, a-z (Total: 62 characters)
 
-Created by <a href="https://github.com/igharsha7" target="_blank">igharsha7</a> using TensorFlow and Streamlit
+Created by igharsha7 (click on GitHub icon) using TensorFlow and Streamlit
 """)
 
 # Additional sidebar information
